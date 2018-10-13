@@ -1,0 +1,18 @@
+name: saw-analyzer
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+    - anaconda
+dependencies:
+    - python>=3.6
+    - numpy #=1.13.*
+    - matplotlib #=2.1.*
+    - seaborn #=0.8.1
+    - jupyter #=1.0.0
+    - pandas #=0.21.*
+     # for Jupyter
+    - rise #=5.1.*
+    - jupyter_contrib_nbextensions #=0.3.3
+    # for VS code
+    - pylint #==1.8.*
+    - autopep8 #==1.3.*
